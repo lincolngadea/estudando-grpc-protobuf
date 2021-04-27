@@ -15,9 +15,10 @@ service FuncionarioService {
 }
 
 enum Cargo{
-  DEV = 0;
-  QA = 1;
-  GERENTE = 2;
+  DESCONHECIDO = 0;//VALOR PADRÃO
+  DEV = 1;
+  QA = 2;
+  GERENTE = 3;
 }
 
 
